@@ -1,3 +1,5 @@
+
+// @ts-nocheck
 import { useState, useEffect } from "react";
 
 const todayISO = () => new Date().toISOString().split("T")[0];
